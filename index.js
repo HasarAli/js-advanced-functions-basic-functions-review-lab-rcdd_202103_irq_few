@@ -13,20 +13,21 @@ function wrapAdjective(wrapper='*') {
   }
 }
 
-let Calculator;
-Calculator = {
-  add: function(x, y){
-    return x+y
-  },
-  subtract: function(x,y){
-    return x-y
-  },
-  multiply: function(x,y){
-    return x*y
-  },
-  devide: function(x,y){
-    return x/y
-  },
+function() {
+  const Calculator = {
+    add: function(x, y){
+      return x+y
+    },
+    subtract: function(x,y){
+      return x-y
+    },
+    multiply: function(x,y){
+      return x*y
+    },
+    devide: function(x,y){
+      return x/y
+    },
+  }
 }
 
 function actionApplyer(start, fncs=[]) {
